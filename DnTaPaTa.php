@@ -293,7 +293,7 @@ function dtptRenderEnsemble( $input, array $args, Parser $parser, PPFrame $frame
 	
 	// the actual text to be rendered is in $dtptMarkupBuffer
 	$result = $parser->recursiveTagParse( $prolog . $dtptMarkupBuffer . $epilog, $frame );
-	
+	$dtptMarkupBuffer = '';
 	// reset the ensemble flag.
 	$dtptInEnsemble = $previousFlag;
 	
