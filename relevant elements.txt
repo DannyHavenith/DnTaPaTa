@@ -1,0 +1,3 @@
+MediaWiki:Common.css
+images: Dn, Gn, Do, Go, Pa, Ta, etc. (*.png)
+templates: {{{Dn}}, {{Gn}}, etc.
