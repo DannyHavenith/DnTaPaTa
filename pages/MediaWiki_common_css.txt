@@ -1,0 +1,42 @@
+table.djembe {
+    border:0;
+    border-spacing:0;
+    margin: 10pt;
+}
+
+table.djembe td
+{
+    text-align: center;
+    padding:0;
+    border:0;
+}
+
+table.djembe td.instrument_name
+{
+    text-align: right;
+    padding-right: 4px;
+}
+
+table.djembe td.bst_column
+{
+    text-align: right;
+    padding-right: 0px;
+}
+
+table.djembe .repeat_counter_line
+{
+    visibility:hidden;
+}
+
+table.djembe td.measure_start
+{
+    border-left:1px solid black;
+    visibility: visible;
+}
+
+
+table.djembe td.measure_end
+{
+    border-right:1px solid black;
+    visibility: visible;
+}

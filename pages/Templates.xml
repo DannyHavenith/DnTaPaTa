@@ -1,0 +1,265 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.5/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.5/ http://www.mediawiki.org/xml/export-0.5.xsd" version="0.5" xml:lang="nl-informal">
+  <siteinfo>
+    <sitename>SabarWiki</sitename>
+    <base>http://rurandom.org/djiki/index.php?title=Hoofdpagina</base>
+    <generator>MediaWiki 1.17.0</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Speciaal</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Overleg</namespace>
+      <namespace key="2" case="first-letter">Gebruiker</namespace>
+      <namespace key="3" case="first-letter">Overleg gebruiker</namespace>
+      <namespace key="4" case="first-letter">SabarWiki</namespace>
+      <namespace key="5" case="first-letter">Overleg SabarWiki</namespace>
+      <namespace key="6" case="first-letter">Bestand</namespace>
+      <namespace key="7" case="first-letter">Overleg bestand</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Overleg MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Sjabloon</namespace>
+      <namespace key="11" case="first-letter">Overleg sjabloon</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Overleg help</namespace>
+      <namespace key="14" case="first-letter">Categorie</namespace>
+      <namespace key="15" case="first-letter">Overleg categorie</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Sjabloon:BST</title>
+    <id>21</id>
+    <revision>
+      <id>130</id>
+      <timestamp>2011-07-10T10:33:27Z</timestamp>
+      <contributor>
+        <username>Danny</username>
+        <id>1</id>
+      </contributor>
+      <minor/>
+      <comment>[[Sjabloon:Djembe]] hernoemd naar [[Sjabloon:BST]]</comment>
+      <text xml:space="preserve" bytes="23">{{Notation column|BST}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Sjabloon:Cl</title>
+    <id>37</id>
+    <revision>
+      <id>100</id>
+      <timestamp>2011-07-03T22:25:49Z</timestamp>
+      <contributor>
+        <username>Danny</username>
+        <id>1</id>
+      </contributor>
+      <comment>Nieuwe pagina aangemaakt met '{{Notation column|Cl}}'</comment>
+      <text xml:space="preserve" bytes="22">{{Notation column|Cl}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Sjabloon:Dn</title>
+    <id>15</id>
+    <revision>
+      <id>37</id>
+      <timestamp>2011-07-01T21:24:15Z</timestamp>
+      <contributor>
+        <username>Danny</username>
+        <id>1</id>
+      </contributor>
+      <comment>Nieuwe pagina aangemaakt met '{{Notation column|Dn}}'</comment>
+      <text xml:space="preserve" bytes="22">{{Notation column|Dn}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Sjabloon:Do</title>
+    <id>8</id>
+    <revision>
+      <id>21</id>
+      <timestamp>2011-07-01T15:28:57Z</timestamp>
+      <contributor>
+        <username>Danny</username>
+        <id>1</id>
+      </contributor>
+      <comment>Nieuwe pagina aangemaakt met '{{Notation column|Do}}'</comment>
+      <text xml:space="preserve" bytes="22">{{Notation column|Do}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Sjabloon:Dogo</title>
+    <id>30</id>
+    <revision>
+      <id>82</id>
+      <timestamp>2011-07-03T20:48:57Z</timestamp>
+      <contributor>
+        <username>Danny</username>
+        <id>1</id>
+      </contributor>
+      <comment>Nieuwe pagina aangemaakt met '{{Notation column|Dogo}}'</comment>
+      <text xml:space="preserve" bytes="24">{{Notation column|Dogo}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Sjabloon:Dun bell</title>
+    <id>45</id>
+    <revision>
+      <id>119</id>
+      <timestamp>2011-07-04T19:34:55Z</timestamp>
+      <contributor>
+        <username>Danny</username>
+        <id>1</id>
+      </contributor>
+      <comment>Nieuwe pagina aangemaakt met '{{Notation column|Dunun bell}}'</comment>
+      <text xml:space="preserve" bytes="30">{{Notation column|Dunun bell}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Sjabloon:Dun closed</title>
+    <id>44</id>
+    <revision>
+      <id>118</id>
+      <timestamp>2011-07-04T19:34:32Z</timestamp>
+      <contributor>
+        <username>Danny</username>
+        <id>1</id>
+      </contributor>
+      <comment>Nieuwe pagina aangemaakt met '{{Notation column|Dunun closed}}'</comment>
+      <text xml:space="preserve" bytes="32">{{Notation column|Dunun closed}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Sjabloon:Dun empty</title>
+    <id>42</id>
+    <revision>
+      <id>116</id>
+      <timestamp>2011-07-04T19:33:16Z</timestamp>
+      <contributor>
+        <username>Danny</username>
+        <id>1</id>
+      </contributor>
+      <comment>Nieuwe pagina aangemaakt met '{{Notation column|Dunun empty}}'</comment>
+      <text xml:space="preserve" bytes="31">{{Notation column|Dunun empty}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Sjabloon:Dun open</title>
+    <id>43</id>
+    <revision>
+      <id>117</id>
+      <timestamp>2011-07-04T19:33:57Z</timestamp>
+      <contributor>
+        <username>Danny</username>
+        <id>1</id>
+      </contributor>
+      <comment>Nieuwe pagina aangemaakt met '{{Notation column|Dunun open}}'</comment>
+      <text xml:space="preserve" bytes="30">{{Notation column|Dunun open}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Sjabloon:En</title>
+    <id>19</id>
+    <revision>
+      <id>42</id>
+      <timestamp>2011-07-01T21:27:26Z</timestamp>
+      <contributor>
+        <username>Danny</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve" bytes="22">{{Notation column|En}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Sjabloon:Fa</title>
+    <id>25</id>
+    <revision>
+      <id>59</id>
+      <timestamp>2011-07-01T23:25:06Z</timestamp>
+      <contributor>
+        <username>Danny</username>
+        <id>1</id>
+      </contributor>
+      <comment>Nieuwe pagina aangemaakt met '{{Notation column|Fla}}'</comment>
+      <text xml:space="preserve" bytes="23">{{Notation column|Fla}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Sjabloon:Fo</title>
+    <id>26</id>
+    <revision>
+      <id>60</id>
+      <timestamp>2011-07-01T23:25:34Z</timestamp>
+      <contributor>
+        <username>Danny</username>
+        <id>1</id>
+      </contributor>
+      <comment>Nieuwe pagina aangemaakt met '{{Notation column|Flo}}'</comment>
+      <text xml:space="preserve" bytes="23">{{Notation column|Flo}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Sjabloon:Gn</title>
+    <id>16</id>
+    <revision>
+      <id>38</id>
+      <timestamp>2011-07-01T21:24:41Z</timestamp>
+      <contributor>
+        <username>Danny</username>
+        <id>1</id>
+      </contributor>
+      <comment>Nieuwe pagina aangemaakt met '{{Notation column|Gn}}'</comment>
+      <text xml:space="preserve" bytes="22">{{Notation column|Gn}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Sjabloon:Go</title>
+    <id>9</id>
+    <revision>
+      <id>22</id>
+      <timestamp>2011-07-01T15:29:38Z</timestamp>
+      <contributor>
+        <username>Danny</username>
+        <id>1</id>
+      </contributor>
+      <comment>Nieuwe pagina aangemaakt met '{{Notation column|Go}}'</comment>
+      <text xml:space="preserve" bytes="22">{{Notation column|Go}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Sjabloon:Notation column</title>
+    <id>7</id>
+    <revision>
+      <id>20</id>
+      <timestamp>2011-07-01T15:28:11Z</timestamp>
+      <contributor>
+        <username>Danny</username>
+        <id>1</id>
+      </contributor>
+      <comment>Nieuwe pagina aangemaakt met '[[File:{{{1}}}.png|frameless|20px]]'</comment>
+      <text xml:space="preserve" bytes="35">[[File:{{{1}}}.png|frameless|20px]]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Sjabloon:Pa</title>
+    <id>17</id>
+    <revision>
+      <id>39</id>
+      <timestamp>2011-07-01T21:25:00Z</timestamp>
+      <contributor>
+        <username>Danny</username>
+        <id>1</id>
+      </contributor>
+      <comment>Nieuwe pagina aangemaakt met '{{Notation column|Pa}}'</comment>
+      <text xml:space="preserve" bytes="22">{{Notation column|Pa}}</text>
+    </revision>
+  </page>
+  <page>
+    <title>Sjabloon:Pata</title>
+    <id>31</id>
+    <revision>
+      <id>84</id>
+      <timestamp>2011-07-03T20:49:37Z</timestamp>
+      <contributor>
+        <username>Danny</username>
+        <id>1</id>
+      </contributor>
+      <text xml:space="preserve" bytes="24">{{Notation column|Pata}}</text>
+    </revision>
+  </page>
+</mediawiki>
