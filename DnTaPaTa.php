@@ -20,7 +20,8 @@ $dtptDefaults = array (
 	'djembestyle' => 'djembe',
 	'dununstyle' => 'djembe',
 	'ensemblestyle' => 'djembe',
-	'times' => ''
+	'times' => '',
+	'ana' => 0
 );
 
 /*!
@@ -79,7 +80,7 @@ function dtptTableEnd()
  * |1   2   3   4   |1   2   3   4   |
  * Such a line is added to the top of a measure.
  */
-function dtptCounterLine( $counts, $countsPerBeat, $beatsPerMeasure)
+function dtptCounterLine( $counts, $countsPerBeat, $beatsPerMeasure, $anacrusis)
 {
 	global $dtptMarkupBuffer;
 	
@@ -88,7 +89,7 @@ function dtptCounterLine( $counts, $countsPerBeat, $beatsPerMeasure)
 	$beat_counter = 1;
 	$countsPerMeasure = $countsPerBeat * $beatsPerMeasure;
 	$wikitext = '';
-	for ($i = 0; $i < $counts; ++$i)
+	for ($i = -$anacrusis; $i < $counts - $anacrusis; ++$i)
 	{
 		if ($i % $countsPerMeasure == 0)
 		{
@@ -193,7 +194,11 @@ function dtptRecursiveTagParse( $wikitext, Parser $parser, PPFrame $frame)
 	$tokens = preg_split('/\s/', $input, -1 , PREG_SPLIT_NO_EMPTY);
 	$wikitext = dtptTableStart($djembeStyle);
 	
-	$wikitext .= dtptCounterLine(count( $tokens), $options['countsperbeat'], $options['beatspermeasure']);
+	$wikitext .= dtptCounterLine(
+		count( $tokens), 
+		$options['countsperbeat'], 
+		$options['beatspermeasure'],
+		$options['ana']);
 	$times = $options['times'];
 	if ($times)
 	{
@@ -330,7 +335,7 @@ function dtptRenderDunun( $input, array $args, Parser $parser, PPFrame $frame )
 	}
 	
 	// create a counter line
-	$counts = dtptCounterLine( $maxCount, $options['countsperbeat'], $options['beatspermeasure']) . "\n";
+	$counts = dtptCounterLine( $maxCount, $options['countsperbeat'], $options['beatspermeasure'], $options['ana']) . "\n";
 	
 	$wikitext = dtptTableStart($dununStyle) . $counts . $wikitext . dtptTableEnd();
 	
