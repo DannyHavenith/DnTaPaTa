@@ -1,0 +1,19 @@
+DnTaPaTa
+--------
+
+This mediawiki plugin allows Djembe and Dunun rythms to be added to a mediawiki. Rythms are notated as in the following example:
+
+<djembe>
+Gn Ta Pa Ta Gn en Pa en
+</djembe>
+
+The pluging will then render a grahphical (piano roll-like) representation of such a rythm.
+
+
+Installation
+------------
+Copy the included php file to directory $IP/extensions/DnTaPaTa/, import the pages in the pages 
+subdirectory and upload all the png-images in the images subdirectory.
+
+in LocalSettings add:
+include_once("$IP/extensions/DnTaPaTa/DnTaPaTa.php");
